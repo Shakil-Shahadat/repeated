@@ -20,6 +20,16 @@
 	<div class="tab-content mt-3">
 
 		<div class="tab-pane fade show active" id="daily">
+
+			<?php
+				$db = new SQLite3( 'data.db' );
+				$result = $db->query( 'SELECT * FROM tasks WHERE type="daily"' );
+
+				while( $res = $result->fetchArray( SQLITE3_ASSOC ) )
+				{
+				} // while
+			?>
+
 		</div><!-- .tab-pane -->
 
 		<div class="tab-pane fade" id="weekly">
