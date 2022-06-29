@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<main class="container col-6 mt-3">
+<main class="container col-6 mt-3 addForm">
 
 	<div class="card mb-4 d-none">
 		<div class="card-body">
