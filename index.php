@@ -10,6 +10,26 @@
 
 <main class="container col-6 mt-3">
 
+	<div class="card mb-4 d-none">
+		<div class="card-body">
+
+			<div class="input-group">
+
+				<div class="input-group-text">Task</div>
+				<input type="text" class="form-control">
+				<select class="form-select">
+					<option>Daily</option>
+					<option>Weekly</option>
+					<option>Monthly</option>
+					<option>Yearly</option>
+				</select>
+				<button class="btn btn-primary">Add</button>
+
+			</div><!-- .input-group -->
+
+		</div><!-- .card-body -->
+	</div><!-- .card -->
+
 	<nav class="nav nav-tabs nav-justified">
 		<button class="nav-link active" data-bs-toggle="tab" data-bs-target="#daily">Daily</button>
 		<button class="nav-link" data-bs-toggle="tab" data-bs-target="#weekly">Weekly</button>
