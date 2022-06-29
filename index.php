@@ -31,7 +31,7 @@
 		</div><!-- .card-body -->
 	</div><!-- .card -->
 
-	<button class="btn btn-primary plus-button">+</button>
+	<button class="btn btn-outline-primary plus-button">+</button>
 
 	<nav class="nav nav-tabs nav-justified">
 		<button class="nav-link active" data-bs-toggle="tab" data-bs-target="#daily">Daily</button>
