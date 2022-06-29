@@ -23,11 +23,11 @@
 		</div><!-- .tab-pane -->
 
 		<div class="tab-pane fade" id="weekly">
-		</div>
+		</div><!-- .tab-pane -->
 		<div class="tab-pane fade" id="monthly">
-		</div>
+		</div><!-- .tab-pane -->
 		<div class="tab-pane fade" id="yearly">
-		</div>
+		</div><!-- .tab-pane -->
 	</div>
 
 </main>
