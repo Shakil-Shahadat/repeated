@@ -8,5 +8,9 @@
 </head>
 <body>
 
+<main class="container">
+
+</main>
+
 </body>
 </html>
