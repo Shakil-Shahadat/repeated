@@ -9,9 +9,9 @@
 </head>
 <body>
 
-<main class="container col-6 mt-3 addForm">
+<main class="container col-6 mt-3">
 
-	<div class="card mb-4 d-none">
+	<div class="card mb-4 d-none addForm">
 		<div class="card-body">
 
 			<div class="input-group">
