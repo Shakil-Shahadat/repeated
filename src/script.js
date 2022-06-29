@@ -9,3 +9,8 @@ function hideButtons( catchMe )
 {
 	catchMe.querySelector( '.button-group' ).classList.add( 'd-none' );
 }
+
+function showAddForm()
+{
+	document.querySelector( '.addForm' ).classList.toggle( 'd-none' );
+}
