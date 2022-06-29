@@ -54,7 +54,7 @@
 		</div><!-- .tab-pane -->
 		<div class="tab-pane fade" id="yearly">
 		</div><!-- .tab-pane -->
-	</div>
+	</div><!-- .tab-content -->
 
 </main>
 
