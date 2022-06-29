@@ -10,7 +10,26 @@
 
 <main class="container col-6 mt-3">
 
+	<nav class="nav nav-tabs nav-justified">
+		<button class="nav-link active" data-bs-toggle="tab" data-bs-target="#daily">Daily</button>
+		<button class="nav-link" data-bs-toggle="tab" data-bs-target="#weekly">Weekly</button>
+		<button class="nav-link" data-bs-toggle="tab" data-bs-target="#monthly">Monthly</button>
+		<button class="nav-link" data-bs-toggle="tab" data-bs-target="#yearly">Yearly</button>
+	</nav>
+
+	<div class="tab-content">
+		<div class="tab-pane fade show active" id="daily">
+		</div>
+		<div class="tab-pane fade" id="weekly">
+		</div>
+		<div class="tab-pane fade" id="monthly">
+		</div>
+		<div class="tab-pane fade" id="yearly">
+		</div>
+	</div>
+
 </main>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
