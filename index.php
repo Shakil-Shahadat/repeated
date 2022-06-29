@@ -17,7 +17,8 @@
 		<button class="nav-link" data-bs-toggle="tab" data-bs-target="#yearly">Yearly</button>
 	</nav>
 
-	<div class="tab-content">
+	<div class="tab-content mt-3">
+
 		<div class="tab-pane fade show active" id="daily">
 		</div>
 		<div class="tab-pane fade" id="weekly">
