@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<main class="container">
+<main class="container col-6 mt-3">
 
 </main>
 
