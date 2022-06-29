@@ -20,7 +20,8 @@
 	<div class="tab-content mt-3">
 
 		<div class="tab-pane fade show active" id="daily">
-		</div>
+		</div><!-- .tab-pane -->
+
 		<div class="tab-pane fade" id="weekly">
 		</div>
 		<div class="tab-pane fade" id="monthly">
