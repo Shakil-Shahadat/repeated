@@ -24,7 +24,7 @@
 					<option>Monthly</option>
 					<option>Yearly</option>
 				</select>
-				<button class="btn btn-primary">Add</button>
+				<button class="btn btn-primary" onclick="addTask()">Add</button>
 
 			</div><!-- .input-group -->
 
