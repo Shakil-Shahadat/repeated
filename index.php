@@ -27,6 +27,22 @@
 
 				while( $res = $result->fetchArray( SQLITE3_ASSOC ) )
 				{
+			?>
+					<div class="card mb-3" onmouseenter="showButtons( this )" onmouseleave="hideButtons( this )">
+						<div class="card-body row">
+
+							<h3 class="card-title col"><?= $res[ 'task' ] ?></h3>
+
+							<div class="button-group col-4 mt-2 d-none">
+								<button class="btn btn-success btn-sm">Done</button>
+								<button class="btn btn-primary btn-sm">Suspend</button>
+								<button class="btn btn-dark btn-sm">Edit</button>
+								<button class="btn btn-danger btn-sm">Delete</button>
+							</div><!-- .button-group -->
+
+						</div><!-- .card-body -->
+					</div><!-- .card -->
+			<?php
 				} // while
 			?>
 
