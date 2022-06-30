@@ -18,14 +18,14 @@ function showAddForm()
 
 function addTask()
 {
-	let newTask = 'task=' + document.querySelector( '.newTask' ).value;
-	newTask += '&type=' + document.querySelector( '.taskType' ).value;
+	let taskDetails = 'task=' + document.querySelector( '.newTask' ).value;
+	taskDetails += '&type=' + document.querySelector( '.taskType' ).value;
 
 	fetch( 'add.php',
 	{
 		method: 'POST',
 		headers: { 'Content-Type' : 'application/x-www-form-urlencoded' },
-		body: newTask
+		body: taskDetails
 	})
 	.then( response => response.text() )
 	.then( data => location.reload() )
