@@ -10,6 +10,7 @@ function hideButtons( catchMe )
 	catchMe.querySelector( '.button-group' ).classList.add( 'd-none' );
 }
 
+// Toggle add form view
 function showAddForm()
 {
 	document.querySelector( '.addForm' ).classList.toggle( 'd-none' );
