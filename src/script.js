@@ -14,6 +14,7 @@ function hideButtons( catchMe )
 function showAddForm()
 {
 	document.querySelector( '.addForm' ).classList.toggle( 'd-none' );
+	document.querySelector( '.newTask' ).focus();
 }
 
 function addTask()
