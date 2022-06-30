@@ -17,8 +17,8 @@
 			<div class="input-group">
 
 				<div class="input-group-text">Task</div>
-				<input type="text" class="form-control">
-				<select class="form-select">
+				<input type="text" class="form-control newTask">
+				<select class="form-select taskType">
 					<option>Daily</option>
 					<option>Weekly</option>
 					<option>Monthly</option>
