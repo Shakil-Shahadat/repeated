@@ -19,8 +19,8 @@ function showAddForm()
 
 function addTask()
 {
-	let taskDetails = 'task=' + document.querySelector( '.newTask' ).value;
-	taskDetails += '&type=' + document.querySelector( '.taskType' ).value;
+	let taskDetails = 'task=' + encodeURIComponent( document.querySelector( '.newTask' ).value );
+	taskDetails += '&type=' + encodeURIComponent( document.querySelector( '.taskType' ).value );
 
 	fetch( 'add.php',
 	{
