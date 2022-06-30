@@ -28,6 +28,6 @@ function addTask()
 		body: newTask
 	})
 	.then( response => response.text() )
-	.then( data => console.log( data ) )
+	.then( data => location.reload() )
 	.catch( error => console.error( 'Error:', error ) );
 }
