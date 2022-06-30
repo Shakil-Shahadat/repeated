@@ -48,7 +48,7 @@
 
 			<?php
 				$db = new SQLite3( 'data.db' );
-				$result = $db->query( 'SELECT * FROM tasks WHERE type="daily"' );
+				$result = $db->query( 'SELECT * FROM tasks WHERE type="Daily"' );
 
 				while( $res = $result->fetchArray( SQLITE3_ASSOC ) )
 				{
