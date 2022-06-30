@@ -4,7 +4,7 @@ function showButtons( catchMe )
 	catchMe.querySelector( '.button-group' ).classList.remove( 'd-none' );
 }
 
-// A function to hide buttons on mouse leave from a card
+// Hide buttons when mouse leave a card
 function hideButtons( catchMe )
 {
 	catchMe.querySelector( '.button-group' ).classList.add( 'd-none' );
