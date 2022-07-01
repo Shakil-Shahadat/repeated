@@ -62,7 +62,7 @@
 								<button class="btn btn-success btn-sm">Done</button>
 								<button class="btn btn-primary btn-sm">Suspend</button>
 								<button class="btn btn-dark btn-sm">Edit</button>
-								<button class="btn btn-danger btn-sm">Delete</button>
+								<button class="btn btn-danger btn-sm" onclick="delTask( this )">Delete</button>
 							</div><!-- .button-group -->
 
 						</div><!-- .card-body -->
