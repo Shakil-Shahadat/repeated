@@ -59,7 +59,7 @@
 							<h3 class="card-title col"><?= $res[ 'task' ] ?></h3>
 
 							<div class="button-group col-3 mt-2 d-none">
-								<button class="btn btn-success btn-sm">Done</button>
+								<button class="btn btn-success btn-sm" onclick="doneTask( this )">Done</button>
 								<button class="btn btn-danger btn-sm" onclick="delTask( this )">Delete</button>
 							</div><!-- .button-group -->
 
