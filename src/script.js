@@ -29,6 +29,15 @@ function addTask()
 		body: taskDetails
 	})
 	.then( response => response.text() )
-	.then( data => location.reload() )
+	.then( data => {
+		if ( data === 'Success!' )
+		{
+			location.reload();
+		}
+		else
+		{
+			alert( 'Last query failed.' );
+		}
+	})
 	.catch( error => console.error( 'Error:', error ) );
 }
