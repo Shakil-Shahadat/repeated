@@ -17,6 +17,7 @@ function showAddForm()
 	document.querySelector( '.newTask' ).focus();
 }
 
+// Add a task
 function addTask()
 {
 	let taskDetails = 'task=' + encodeURIComponent( document.querySelector( '.newTask' ).value );
