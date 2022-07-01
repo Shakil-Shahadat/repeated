@@ -43,6 +43,29 @@ function addTask()
 	.catch( error => console.error( 'Error:', error ) );
 }
 
+// Select a task as done
+function doneTask( target )
+{
+	fetch( 'done.php',
+	{
+		method: 'POST',
+		headers: { 'Content-Type' : 'application/x-www-form-urlencoded' },
+		body: 'task=' + encodeURIComponent( target.parentNode.parentNode.querySelector( '.card-title' ).innerText )
+	})
+	.then( response => response.text() )
+	.then( data => {
+		if ( data === 'Success!' )
+		{
+			location.reload();
+		}
+		else
+		{
+			alert( 'Last query failed.' );
+		}
+	})
+	.catch( error => console.error( 'Error:', error ) );
+}
+
 // Delete a task
 function delTask( target )
 {
