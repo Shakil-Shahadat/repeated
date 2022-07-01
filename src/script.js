@@ -73,7 +73,7 @@ function delTask( target )
 	{
 		method: 'POST',
 		headers: { 'Content-Type' : 'application/x-www-form-urlencoded' },
-		body: 'del=' + encodeURIComponent( target.parentNode.parentNode.querySelector( '.card-title' ).innerText )
+		body: 'task=' + encodeURIComponent( target.parentNode.parentNode.querySelector( '.card-title' ).innerText )
 	})
 	.then( response => response.text() )
 	.then( data => {
