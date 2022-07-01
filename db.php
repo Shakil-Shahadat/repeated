@@ -1,7 +1,7 @@
 <?php
 $db = new SQLite3( 'data.db' );
 
-// $response = $db->exec( 'CREATE TABLE IF NOT EXISTS tasks ( task, type, done )' );
+// $response = $db->exec( 'CREATE TABLE IF NOT EXISTS tasks ( task NOT NULL UNIQUE, type, done )' );
 
 // $response = $db->exec( 'INSERT INTO tasks VALUES ( "", "", "" )' );
 
