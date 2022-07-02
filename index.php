@@ -142,6 +142,51 @@
 		</div><!-- .tab-pane #weekly -->
 
 		<div class="tab-pane fade" id="monthly">
+
+			<?php
+				$result = $db->query( 'SELECT * FROM tasks WHERE type="Monthly" AND done=0' );
+
+				while( $res = $result->fetchArray( SQLITE3_ASSOC ) )
+				{
+			?>
+					<div class="card mb-3" onmouseenter="showButtons( this )" onmouseleave="hideButtons( this )">
+						<div class="card-body row">
+
+							<h3 class="card-title col"><?= $res[ 'task' ] ?></h3>
+
+							<div class="button-group col-2 mt-2 d-none">
+								<button class="btn btn-success btn-sm" onclick="doneTask( this )">Done</button>
+								<button class="btn btn-danger btn-sm" onclick="delTask( this )">Delete</button>
+							</div><!-- .button-group -->
+
+						</div><!-- .card-body -->
+					</div><!-- .card -->
+			<?php
+				} // while
+
+				echo '<h3 class="pt-4">Done</h3><hr>';
+
+				$result = $db->query( 'SELECT * FROM tasks WHERE type="Monthly" AND done=1' );
+
+				while( $res = $result->fetchArray( SQLITE3_ASSOC ) )
+				{
+			?>
+					<div class="card mb-3" onmouseenter="showButtons( this )" onmouseleave="hideButtons( this )">
+						<div class="card-body row">
+
+							<h3 class="card-title col"><?= $res[ 'task' ] ?></h3>
+
+							<div class="button-group col-2 mt-2 d-none">
+								<button class="btn btn-success btn-sm" onclick="resetTask( this )">Reset</button>
+								<button class="btn btn-danger btn-sm" onclick="delTask( this )">Delete</button>
+							</div><!-- .button-group -->
+
+						</div><!-- .card-body -->
+					</div><!-- .card -->
+			<?php
+				} // while
+			?>
+
 		</div><!-- .tab-pane #monthly -->
 
 		<div class="tab-pane fade" id="yearly">
