@@ -91,7 +91,7 @@
 				} // while
 			?>
 
-		</div><!-- .tab-pane -->
+		</div><!-- .tab-pane #daily -->
 
 		<div class="tab-pane fade" id="weekly">
 		</div><!-- .tab-pane -->
