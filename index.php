@@ -94,11 +94,14 @@
 		</div><!-- .tab-pane #daily -->
 
 		<div class="tab-pane fade" id="weekly">
-		</div><!-- .tab-pane -->
+		</div><!-- .tab-pane #weekly -->
+
 		<div class="tab-pane fade" id="monthly">
-		</div><!-- .tab-pane -->
+		</div><!-- .tab-pane #monthly -->
+
 		<div class="tab-pane fade" id="yearly">
-		</div><!-- .tab-pane -->
+		</div><!-- .tab-pane #yearly -->
+
 	</div><!-- .tab-content -->
 
 </main>
