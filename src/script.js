@@ -1,3 +1,7 @@
+// Content is loaded faster than this JavaScript file and it causes some error.
+// So, the first 'tab-content' is hidden. Next line shows the content.
+document.querySelector( '.tab-content' ).classList.remove( 'd-none' );
+
 // Show buttons when mouse enter into a card
 function showButtons( catchMe )
 {
