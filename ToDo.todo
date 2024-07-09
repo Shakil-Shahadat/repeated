@@ -1,0 +1,12 @@
+Idea:
+ ☐ Instead of 'Done' & 'Delete', use '✓' or '✔️' & '❌' or '✘' or '✖️' @created(22-12-28 07:47)
+ ☐ Change 'Done' button color to blue @created(22-12-28 07:55)
+ ☐ Increase the distance between two buttons @created(22-12-28 07:55)
+ ☐ Increase top margin @created(22-12-28 07:57)
+ ☐ Increase gap between 'to do' and 'done' @created(22-12-28 07:57)
+ ☐ Update bootstrap version number @created(22-12-28 07:59)
+ ☐ '+' will turn '-' after clicking and then toggle @created(22-12-28 08:03)
+ ☐ Increase padding in dropdown @created(22-12-28 08:04)
+ ☐ Decrease dropdown size @created(22-12-28 08:05)
+ ☐ Add a title to add task form @created(22-12-28 08:05)
+ ☐ Add a cancel button to add task form @created(22-12-28 08:06)
